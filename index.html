@@ -1,0 +1,257 @@
+<!-- Bagian awal HTML: deklarasi dokumen dan pengaturan dasar -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8fcfa"/>
+    <title>Angkringan NICE KOPI</title>
+
+    <!-- Import Google Fonts (Poppins) untuk tampilan teks yang lebih menarik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- Import Feather Icons untuk ikon seperti search, cart, menu -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+
+    <!-- ======= NAVBAR START ======= -->
+    <!-- Navigasi utama website berisi link ke bagian halaman -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Angkringan<span> NICE KOPI</span>.</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+        <a href="#inbox">Inbox</a>
+      </div>
+
+      <!-- Ikon tambahan di navbar -->
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- ======= NAVBAR END ======= -->
+
+    <!-- ======= HERO SECTION START ======= -->
+    <!-- Tampilan utama halaman pertama kali dilihat pengunjung -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Kuliner Khas <span>Angkringan</span></h1>
+        <p>Nikmati kuliner kaki lima dengan suasana tradisional</p>
+        <a href="#" class="cta">Kunjungi</a> 
+      </main>
+    </section>
+    <!-- ======= HERO SECTION END ======= -->
+
+    <!-- ======= ABOUT SECTION START ======= -->
+    <!-- Menjelaskan informasi tentang Angkringan Nice Kopi -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <!-- Gambar ilustrasi angkringan -->
+          <img src="img/about-bg.jpg" alt="tentang kami">
+        </div>
+        <div class="content">
+          <h3>Jangan Lewatkan Keseruan Kuliner Pagi di Angkringan Nice Kopi!</h3>
+          <p>Angkringan Nice Kopi terletak di Jalan Bantul KM 7 menjadi pilihan tepat untuk menikmati kuliner pagi hingga malam hari yang lezat dan terjangkau. Menu best seller di sini adalah Nasi Ayam Geprek lengkap dengan Es Teh hanya 10 ribu saja, dijamin kenyang!</p>
+          <p>Selain itu, tersedia juga es buah yang segar, aneka jus buah, berbagai varian kopi, nasi kucing, gorengan, serta sate-satean yang menggugah selera. Angkringan Nice Kopi juga dilengkapi dengan fasilitas karaoke gratis, free WiFi, dan kamar mandi yang nyaman, sehingga cocok banget buat kamu yang ingin nugas sambil nongkrong santai.</p>
+          <p>Yuk, langsung meluncur ke Angkringan Nice Kopi Jalan Bantul KM 7, dijamin betah dan pengen balik lagi!</p>
+        </div>
+      </div>
+    </section>
+    <!-- ======= ABOUT SECTION END ======= -->
+
+    <!-- ======= MENU SECTION START ======= -->
+    <!-- Menampilkan daftar menu yang tersedia -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Angkringan Nice Kopi siap memanjakan lidah Anda dan membuat Anda kembali lagi untuk menikmati kuliner khas Angkringan yang legendaris dan khas Indonesia.</p>
+
+      <div class="row">
+        <!-- Satu per satu menu ditampilkan dalam bentuk kartu -->
+        <div class="menu-card">
+          <img src="img/menu/menu1.jpeg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Nasi Ayam Geprek -</h3>
+          <p class="menu-card-price">IDR 8k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu2.jpeg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Sop Buah -</h3>
+          <p class="menu-card-price">IDR 7k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu3.jpeg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Rice Bowl Chicken Teriyaki -</h3>
+          <p class="menu-card-price">IDR 10k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu4.jpg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Wedang Jahe -</h3>
+          <p class="menu-card-price">IDR 7k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu5.jpg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Indomie -</h3>
+          <p class="menu-card-price">IDR 10k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu6.jpg" class="menu-card-img">
+          <h3 class="menu-card-tittle">- Es Teh -</h3>
+          <p class="menu-card-price">IDR 5k</p>
+        </div>
+      </div>
+    </section>
+    <!-- ======= MENU SECTION END ======= -->
+
+    <!-- ======= CONTACT SECTION START ======= -->
+    <!-- Formulir dan lokasi kontak Angkringan -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Jl. Bantul Km. 7, Monggang, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</p>
+      <div class="row">
+        <!-- Peta lokasi menggunakan Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.41816289926!2d110.3427238!3d-7.851228600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a571ce476dd43%3A0xb4f5f74b28271542!2sAngkringan%20NICE%20KOPI!5e0!3m2!1sid!2sid!4v1746359031246!5m2!1sid!2sid"
+          allowfullscreen="" loading="lazy" class="map"></iframe>
+
+        <!-- Form input pesan pelanggan -->
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama">
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no handphone">
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="pesan">
+          </div>
+          <button class="btn" type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- ======= CONTACT SECTION END ======= -->
+
+    
+   <!-- ======= INBOX SECTION START ======= -->
+    <section id="inbox" class="inbox">
+      <h2><span>Pesan</span> Menu</h2>
+      <p>Isi form di bawah untuk memesan menu favoritmu:</p>
+      <form id="orderForm">
+        <input type="text" id="namaPelanggan" placeholder="Nama Anda" required />
+        <input type="text" id="menuDipesan" placeholder="Menu yang dipesan" required />
+        <input type="number" id="jumlah" placeholder="Jumlah" required />
+        <button type="submit" class="btn">Kirim Pesanan</button>
+      </form>
+      <h3>📦 Daftar Pesanan:</h3>
+      <ul id="daftarPesanan" style="list-style: none; padding-left: 0;"></ul>
+    </section>
+    <!-- ======= INBOX SECTION END ======= -->
+
+    <!-- ======= FOOTER START ======= -->
+    <!-- Bagian bawah halaman berisi media sosial dan copyright -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Angkringan NICE KOPI By Lidya Cantika. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- ======= FOOTER END ======= -->
+
+    <!-- Jalankan Feather Icons setelah halaman dimuat -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--register ke service Worker-->
+    <script> 
+      window.addEventListener("load",()=>{
+        if("serviceWorker" in navigator){
+          navigator.serviceWorker.register("sw.js")
+        }
+      })
+    </script>
+
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+
+    <script>
+      // 1️⃣ Buka/membuat database IndexedDB
+      const dbRequest = indexedDB.open("PesananDB", 1);
+      let db;
+
+      dbRequest.onerror = () => console.error("❌ Gagal buka database");
+      dbRequest.onsuccess = (e) => {
+        db = e.target.result;
+        tampilkanPesanan();
+      };
+      dbRequest.onupgradeneeded = (e) => {
+        db = e.target.result;
+        db.createObjectStore("pesanan", { keyPath: "id", autoIncrement: true });
+        console.log("✅ Object store 'pesanan' dibuat");
+      };
+
+      // 2️⃣ Simpan data pesanan saat form disubmit
+      document.getElementById("orderForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        const nama = document.getElementById("namaPelanggan").value;
+        const menu = document.getElementById("menuDipesan").value;
+        const jumlah = document.getElementById("jumlah").value;
+
+        const transaksi = db.transaction(["pesanan"], "readwrite");
+        const store = transaksi.objectStore("pesanan");
+        const data = { nama, menu, jumlah };
+        store.add(data);
+
+        transaksi.oncomplete = () => {
+          tampilkanPesanan();
+          this.reset();
+        };
+      });
+
+      // 3️⃣ Tampilkan semua pesanan di halaman
+      function tampilkanPesanan() {
+        const list = document.getElementById("daftarPesanan");
+        list.innerHTML = "";
+        const tx = db.transaction("pesanan", "readonly");
+        const store = tx.objectStore("pesanan");
+        store.openCursor().onsuccess = function (event) {
+          const cursor = event.target.result;
+          if (cursor) {
+            const li = document.createElement("li");
+            li.textContent = `${cursor.value.nama} memesan ${cursor.value.jumlah}x ${cursor.value.menu}`;
+            li.style.marginBottom = "8px";
+            list.appendChild(li);
+            cursor.continue();
+          }
+        };
+      }
+    </script>
+
+  </body>
+</html>
